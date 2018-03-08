@@ -15,6 +15,7 @@ add_executable(week2pret week2/04-pret.c)
 add_executable(week2prime week2/05-prime.c)
 add_executable(week2formulas week2/06-formulas.c)
 add_executable(week2poly week2/07-polynomials.c)
+add_executable(week2useless week2/08-useless.c)
 
 target_link_libraries(week2prime m)
 target_link_libraries(week2formulas m)
