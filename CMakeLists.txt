@@ -20,6 +20,9 @@ add_executable(week2useless week2/08-useless.c)
 
 add_executable(week3e1 week3/01-scalaire.c)
 add_executable(week3e2 week3/02-mulmat.c)
+add_executable(week3e3 week3/03-recouvrement.c)
+add_executable(week3e4 week3/04-complexes.c)
+add_executable(week3e5 week3/05-complexes2.c)
 
 
 target_link_libraries(week2prime m)
