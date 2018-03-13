@@ -23,13 +23,13 @@ int main(void) {
     complex_t z10 = { 1, 0 };
     complex_t z01 = { 0, 1 };
     complex_t z11 = { 1, 1 };
-    complex_t z02 = { 2, 0 };
+    complex_t z02 = { 0, 2 };
     complex_t z23 = { 2, -3 };
 
     show(add(z10, z01));
     show(mul(z01, z01));
     show(mul(z11, z11));
-    show(div(z02, z01)); // doesn't work but fuck it
+    show(div(z02, z01));
     show(div(z23, z11));
 }
 
