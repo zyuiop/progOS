@@ -32,6 +32,10 @@ add_executable(week5e1 week5/01-echange.c)
 add_executable(week5e2 week5/02-selecteur.c)
 add_executable(week5e3 week5/03-explore.c)
 
+add_executable(week6e1 week6/01-dynarray.c)
+add_executable(week6e2 week6/02-mulmat.c)
+add_executable(week6e3 week6/03-network.c)
+
 target_link_libraries(week2prime m)
 target_link_libraries(week2formulas m)
 target_link_libraries(week2poly m)
