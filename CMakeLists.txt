@@ -28,6 +28,9 @@ add_executable(week4e1 week4/01-ecriture.c)
 add_executable(week4e2 week4/02-lecture.c)
 add_executable(week4e3 week4/03-stat.c)
 
+add_executable(week5e1 week5/01-echange.c)
+add_executable(week5e2 week5/02-selecteur.c)
+add_executable(week5e3 week5/03-explore.cS)
 
 target_link_libraries(week2prime m)
 target_link_libraries(week2formulas m)
