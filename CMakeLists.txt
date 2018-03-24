@@ -24,6 +24,10 @@ add_executable(week3e3 week3/03-recouvrement.c)
 add_executable(week3e4 week3/04-complexes.c)
 add_executable(week3e5 week3/05-complexes2.c)
 
+add_executable(week4e1 week4/01-ecriture.c)
+add_executable(week4e2 week4/02-lecture.c)
+add_executable(week4e3 week4/03-stat.c)
+
 
 target_link_libraries(week2prime m)
 target_link_libraries(week2formulas m)
